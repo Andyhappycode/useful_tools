@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown 零基础教程</title>
+    <style>
+        /* 基础样式重置和全局设置 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", sans-serif;
+            line-height: 1.6;
+        }
+        body {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+            color: #333;
+        }
+        /* 标题样式 */
+        h1 {
+            font-size: 28px;
+            margin: 20px 0 15px;
+            color: #222;
+        }
+        h2 {
+            font-size: 24px;
+            margin: 18px 0 12px;
+            color: #333;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+        h3 {
+            font-size: 20px;
+            margin: 15px 0 10px;
+            color: #444;
+        }
+        /* 列表样式 */
+        ul {
+            margin: 10px 0 10px 25px;
+            list-style-type: disc;
+        }
+        ol {
+            margin: 10px 0 10px 25px;
+            list-style-type: decimal;
+        }
+        li {
+            margin: 5px 0;
+        }
+        /* 代码块样式 */
+        pre {
+            background-color: #f5f5f5;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 8px 0;
+            overflow-x: auto;
+            font-family: "Consolas", "Monaco", monospace;
+            font-size: 14px;
+        }
+        code {
+            background-color: #f5f5f5;
+            padding: 2px 4px;
+            border-radius: 3px;
+            font-family: "Consolas", "Monaco", monospace;
+            font-size: 14px;
+        }
+        /* 引用样式 */
+        blockquote {
+            border-left: 4px solid #ddd;
+            padding: 0 10px;
+            margin: 10px 0;
+            color: #666;
+        }
+        /* 链接样式 */
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        /* 把链接做成按钮样式 */
+        .btn-link {
+            display: inline-block; /* 让链接能设置宽高/内边距 */
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none; /* 去掉链接下划线 */
+            border-radius: 5px;
+            border: none;
+        }
+        .btn-link:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <h1>Markdown 零基础教程（纯文字版）</h1>
+
+    <h2>1. 什么是 Markdown</h2>
+    <ul>
+        <li>用简单符号写排版</li>
+        <li>不用点鼠标调格式</li>
+        <li>笔记、文档、公众号、GitHub 都能用</li>
+    </ul>
+
+    <h2>2. 最常用语法（背会这 9 个就够）</h2>
+
+    <h3>1）标题</h3>
+    <pre><code># 一级标题
+## 二级标题
+### 三级标题
+#### 四级标题</code></pre>
+
+    <h3>2）加粗</h3>
+    <pre><code>**这是加粗文字**</code></pre>
+
+    <h3>3）斜体</h3>
+    <pre><code>*这是斜体*</code></pre>
+
+    <h3>4）删除线</h3>
+    <pre><code>~~这是删除线~~</code></pre>
+
+    <h3>5）无序列表</h3>
+    <pre><code>- 第一项
+- 第二项
+- 第三项</code></pre>
+
+    <h3>6）有序列表</h3>
+    <pre><code>1. 第一项
+2. 第二项
+3. 第三项</code></pre>
+
+    <h3>7）引用</h3>
+    <pre><code>> 这是一段引用文字</code></pre>
+
+    <h3>8）代码</h3>
+    <ul>
+        <li>行内代码：</li>
+    </ul>
+    <pre><code>`这里放代码`</code></pre>
+    <ul>
+        <li>代码块：</li>
+    </ul>
+    <pre><code>```python
+print("hello")
+```</code></pre>
+
+    <h3>9）链接</h3>
+    <pre><code>[显示文字](链接地址)</code></pre>
+
+    <h3>10）图片</h3>
+    <pre><code>![图片说明](图片地址)</code></pre>
+
+    <h2>视频教程</h2>
+    <h3><a href="https://search.bilibili.com/all?keyword=markdown%E8%AF%AD%E6%B3%95%E6%95%99%E7%A8%8B">点击观看</a></h3>
+
+    <a class="btn-link" href="MarkdownEditor.html">返回</a>
+</body>
+</html>
